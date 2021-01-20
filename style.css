@@ -1,0 +1,165 @@
+/* General Styles */
+
+body {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    background-color: #000000;
+}
+    
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #7b3f33;
+    color: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+a {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 22px;
+    color: #f5f5f5;
+    margin-right: 100px;
+}
+
+h2, h3 {
+    margin: 0;
+    background-color: #4a4a4a;
+    color: #f5f5f5;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+h3 {
+    padding-bottom: 10px;
+}
+
+.content .mission {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.mission .content {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    background-image: url("../../resources/images/splash3.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.brews {
+    background-color: #4a4a4a;
+    color: #f5f5f5;
+}
+
+.brews h2 {
+    padding-top: 30px;
+}
+
+.beers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.beers img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    height: auto;
+    padding: 30px;
+
+}
+
+.beerStyle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.beerStyle h4 {
+    align-self: flex-start;
+}
+
+.beerStyle p {
+    max-width: 200px;
+    justify-self: flex-start;
+}
+
+.teamPicContainer {
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: #000000;
+}
+.team {
+    color: #ffffff;
+}
+
+.team h2 {
+    background-color: #000000;
+    padding-top: 30px;
+}
+
+.teampic {
+    width: 200px;
+    height: 260px;
+
+}
+
+.picBox {
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.picBox figcaption {
+    padding-top: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7b3f33;
+    color:#f5f5f5;
+}
+
+.contact {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.contact h4 {
+    margin-bottom: -10px;
+}
+
+.copyright {
+
+    text-align: right;
+    margin-left: 7%;
+}
+.credits {
+    text-align: right;
+    padding-right: 20px;
+}
