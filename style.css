@@ -60,7 +60,7 @@ h3 {
     width: auto;
     text-align: center;
     justify-content: center;
-    background-image: url("../../resources/images/splash3.jpg");
+    background-image: url("/splash3.jpg");
     background-repeat:no-repeat;
     background-size:cover;
 }
